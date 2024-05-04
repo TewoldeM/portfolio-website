@@ -1,0 +1,61 @@
+.contianer.testmonial__contianer{
+  width: 40%;
+  /* padding-bottom: 4rem; */
+}
+.cliant__avater{
+  aspect-ratio: 1/1;
+  width: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid rgb(14, 14, 194);
+}
+.cliant__avater img{
+  border-radius: 50%;
+  height: 100%;
+}
+.testmonial{
+  background:  rgb(46, 46, 158);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+.cliant__review{
+ color: whitesmoke;
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
+
+}
+.cliant__name{
+  color: white;
+  font-size: 1.5rem;
+}
+@media screen and (max-width:1024px){
+contianer.testmonial__contianer{
+  width: 60px;
+}
+  
+}
+
+@media screen and (max-width:600px){
+ contianer .testmonial__contianer{
+    width: var(--contianer-width-sm);
+  }
+  .cliant__review{
+    width:var(--contianer-width-sm);
+  }
+  .contianer.testmonial__contianer{
+    width: 70%;
+    /* padding-bottom: 4rem; */
+  }
+}
+
+
+
+
+
+
+
